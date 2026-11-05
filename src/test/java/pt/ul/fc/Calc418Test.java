@@ -22,4 +22,14 @@ class Calc418Test {
         assertEquals(212.0, Calc418.celsiusToF(100.0), 1e-9);
         assertEquals(32.0, Calc418.celsiusToF(0.0), 1e-9);
     }
+
+    @Test
+    void magnitudeDoesNotWork() {
+        assertEquals(1, Calc418.magnitude(1));
+    }
+    
+    @Test
+    void amplifyDoesNotWork() {
+        assertEquals(21, Calc418.amplify(3));
+    }
 }
