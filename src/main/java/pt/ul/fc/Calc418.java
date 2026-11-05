@@ -35,7 +35,7 @@ public class Calc418 {
      * Returns n multiplied by 7.
      */
     public static int amplify(int n) {
-        return n + 7;
+        return n * 7;
     }
 
     /**
@@ -70,6 +70,6 @@ public class Calc418 {
      * Returns the absolute value of number.
      */
     public static int magnitude(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 }
